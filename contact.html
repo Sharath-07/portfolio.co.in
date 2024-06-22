@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Project</title>
+    <style>
+        body
+        {
+            background-color: rgb(226, 223, 223);
+        }
+         header,footer
+        {
+            
+            background-color: rgba(0, 0, 0, 0.877);
+            color: aliceblue;
+        }
+        header
+        {
+            padding-top: 1px;
+            padding-bottom: 4%;
+        }
+        footer
+        {
+            padding-top: 40px;
+            padding-bottom: 5px;
+        }
+        nav
+        {
+            margin-left:36.5%;
+        }
+        ul
+        {
+            list-style-type: none;
+        }
+        li a
+        {
+            font-size: 17.3px;
+            text-decoration: none;
+            color:white;
+            display: block;
+            float:left;
+            padding:16px;
+        }
+        a:hover
+        {
+             /* text-decoration: underline; */
+             border-radius: 900%;
+            border-color: rgba(238, 229, 229, 0.178);
+            background-color: rgba(238, 229, 229, 0.178);
+        }
+        .one
+        {
+            width:30%;
+        }
+        #button
+        {
+            color:white;
+            background-color: rgba(0, 0, 0, 0.877);
+            border: 1px solid rgba(0, 0, 0, 0.877);
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        #button:hover
+        {
+            background-color: rgba(16, 224, 68, 0.973);
+            border: 1px solid rgba(16, 224, 68, 0.973);
+        }
+        #nm,#eml
+        {
+            height:22px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Sharath Kumar G</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div style="background-color: white; width:90%; margin-left:75px; padding-top: 10px; padding-bottom: 30px;">
+<h1 style="text-align: center;">Contact Me</h1>
+<center>
+    <form action="success.html">
+        
+    <label for="name" id="name"><b>Name:</b></label><br>
+    <input type="text" class="one" id="nm" required pattern="[a-zA-Z]{3,10}"><br><br> 
+
+    <label for="email" id="email"><b>Email:</b></label><br>
+    <input type="email" class="one" id="eml" required pattern="[a-z0-9_.]+@[a-z]+\.[a-z]{3,}"><br><br>
+
+    <label for="message" id="cm"><b>Message:</b></label><br>
+    <textarea class="one" cols="21" rows="4"></textarea><br><br>
+
+    <input type="submit"  id="button" value="Submit"><br>
+
+    </form>
+</center>
+</div>
+ 
+<footer style="text-align: center;">
+    <div>
+        <h3><B>Contact me</B></h3>
+    </div>
+    <div>
+        <!-- <p>Email: sharathgkumar07@gmail.com</p>
+        <p>Phone Number: +1234567890</p>
+        <p>&copy;2024 Tap Academy-Empowering Minds Through Education</p> -->
+        <pre style="text-align: center;">
+Email: sharathgkumar07@gmail.com
+Phone Number: +91 8150059167
+&copy;2024 Tap Academy-Empowering Minds Through Education
+        </pre>
+    </div>
+</footer>
+
+</body>
+</html>
